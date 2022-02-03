@@ -1,0 +1,30 @@
+body{
+    background-color: yellowgreen;
+}
+h1{
+    color: tomato;
+    background-color:rgb(1, 1, 66);
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: color_changer;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes color_changer{
+    from{
+        box-shadow: 1px 1px 42px teal;
+    }
+    to{
+        box-shadow: 1px 1px 42px purple;
+    }
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
